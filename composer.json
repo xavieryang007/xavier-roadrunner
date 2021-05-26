@@ -1,0 +1,29 @@
+{
+  "name": "xavier\\roadrunner",
+  "description": "the roadrunner lib for thinkphp",
+  "type": "project",
+  "keywords": [
+    "roadrunner",
+    "thinkphp"
+  ],
+  "homepage": "",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Xavier",
+      "email": "499873958@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "topthink/framework": "^6.0.0",
+    "spiral/roadrunner": "^2.2",
+    "nyholm/psr7": "^1.4",
+    "symfony/process": "^5.2"
+  }
+  "autoload": {
+    "psr-4": {
+      "xavier\\roadrunner\\": "src"
+    }
+  }
+}

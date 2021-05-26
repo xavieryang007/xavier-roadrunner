@@ -1,0 +1,9 @@
+server:
+  command: "php ./vendor/bin/roadrunner-worker"
+  relay: "tcp://localhost:7000"
+
+http:
+  address: 0.0.0.0:8080
+  pool:
+    num_workers: 1
+    debug: false
