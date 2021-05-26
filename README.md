@@ -2,7 +2,9 @@ Roadrunner lib for thinkphp
 
 
 执行命令安装依赖
-
+'''
+composer require xavier/roadrunner
+'''
 安装之后
 '''
 php think xavier:roadrunner
