@@ -20,7 +20,7 @@
     "spiral/roadrunner": "^2.2",
     "nyholm/psr7": "^1.4",
     "symfony/process": "^5.2"
-  }
+  },
   "autoload": {
     "psr-4": {
       "xavier\\roadrunner\\": "src"
